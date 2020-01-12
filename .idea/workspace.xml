@@ -1,13 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb972fa6-1a01-4103-8795-4c273d1758c4" name="Default Changelist" comment="" />
+    <list default="true" id="fb972fa6-1a01-4103-8795-4c273d1758c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/config/CustomTokenEnhancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/controller/UserCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/dto/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/dto/UserCategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/dto/base/BaseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/entity/Base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/entity/UserCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/mapper/Base/BaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/mapper/UserCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/repository/UserCategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/service/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/service/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/service/UserCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/service/base/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/service/base/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/service/base/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/service/base/UserCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/service/base/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/util/Startup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/util/UserUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/adminOfficialWeb/demo/controller/UserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/adminOfficialWeb/demo/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/adminOfficialWeb/demo/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/adminOfficialWeb/demo/DemoApplication.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -18,6 +83,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1VWzUb6Zx6JCrETT1kuk3hreEYe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,10 +97,103 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/adminOfficialWeb/demo/config" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.adminOfficialWeb.demo.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\IdeaProjects\adminOfficialWeb\src\main\java\com\adminOfficialWeb\demo\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.adminOfficialWeb.demo.handler" />
+      <recent name="com.adminOfficialWeb.demo.service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.adminOfficialWeb.demo.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adminOfficialWeb.demo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adminOfficialWeb.demo.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.adminOfficialWeb.demo.controller.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.getAllUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adminOfficialWeb.demo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adminOfficialWeb.demo.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.adminOfficialWeb.demo.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="getAllUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adminOfficialWeb.demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adminOfficialWeb.demo.service" />
+      <option name="MAIN_CLASS_NAME" value="com.adminOfficialWeb.demo.service.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.createUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adminOfficialWeb.demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adminOfficialWeb.demo.service" />
+      <option name="MAIN_CLASS_NAME" value="com.adminOfficialWeb.demo.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="createUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.getUsersByAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adminOfficialWeb.demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adminOfficialWeb.demo.service" />
+      <option name="MAIN_CLASS_NAME" value="com.adminOfficialWeb.demo.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="getUsersByAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.adminOfficialWeb.demo.DemoApplication" />
@@ -42,6 +201,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.UserServiceTest.getUsersByAll" />
+        <item itemvalue="JUnit.UserControllerTest.getAllUser" />
+        <item itemvalue="JUnit.UserServiceTest.createUserTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -65,53 +233,144 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577383655668</updated>
-      <workItem from="1577383669757" duration="1952000" />
+      <workItem from="1577383669757" duration="20275000" />
+      <workItem from="1577569942920" duration="6664000" />
+      <workItem from="1577734642070" duration="599000" />
+      <workItem from="1578746836665" duration="30169000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="264" key="GridCell.Tab.0.bottom" timestamp="1577385797961">
+    <state x="370" y="246" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578781658961">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="370" y="246" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578781658961" />
+    <state x="457" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1578850559089">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="457" y="99" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578850559089" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577545391765" />
+    <state x="449" y="301" width="447" height="394" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578781309814">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="449" y="301" width="447" height="394" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578781309814" />
+    <state x="479" y="223" width="462" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1577570887143" />
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577483540292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577385797961" />
-    <state width="1323" height="264" key="GridCell.Tab.0.center" timestamp="1577385797961">
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1577483540292" />
+    <state x="265" y="86" key="CommitChangelistDialog2" timestamp="1578851050340">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="265" y="86" key="CommitChangelistDialog2/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578851050340" />
+    <state width="643" height="466" key="DebuggerActiveHint" timestamp="1577576369685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577385797961" />
-    <state width="1323" height="264" key="GridCell.Tab.0.left" timestamp="1577385797961">
+    <state width="643" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1577576369685" />
+    <state width="1237" height="212" key="GridCell.Tab.0.bottom" timestamp="1578851051637">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="212" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578851051637" />
+    <state width="1323" height="188" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577397851388" />
+    <state width="1323" height="318" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577576688014" />
+    <state width="1237" height="212" key="GridCell.Tab.0.center" timestamp="1578851051637">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="212" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578851051637" />
+    <state width="1323" height="188" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577397851388" />
+    <state width="1323" height="318" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577576688014" />
+    <state width="1237" height="212" key="GridCell.Tab.0.left" timestamp="1578851051637">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="212" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578851051637" />
+    <state width="1323" height="188" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577397851387" />
+    <state width="1323" height="318" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577576688014" />
+    <state width="1237" height="212" key="GridCell.Tab.0.right" timestamp="1578851051637">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="212" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578851051637" />
+    <state width="1323" height="188" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577397851388" />
+    <state width="1323" height="318" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577576688014" />
+    <state width="1237" height="212" key="GridCell.Tab.1.bottom" timestamp="1578851051637">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="212" key="GridCell.Tab.1.bottom/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578851051637" />
+    <state width="1323" height="139" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577396780693" />
+    <state width="1323" height="83" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577576594387" />
+    <state width="1237" height="212" key="GridCell.Tab.1.center" timestamp="1578851051637">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="212" key="GridCell.Tab.1.center/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578851051637" />
+    <state width="1323" height="139" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577396780693" />
+    <state width="1323" height="83" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1577576594387" />
+    <state width="1237" height="212" key="GridCell.Tab.1.left" timestamp="1578851051637">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="212" key="GridCell.Tab.1.left/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578851051637" />
+    <state width="1323" height="139" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577396780693" />
+    <state width="1323" height="83" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1577576594387" />
+    <state width="1237" height="212" key="GridCell.Tab.1.right" timestamp="1578851051637">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="212" key="GridCell.Tab.1.right/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578851051637" />
+    <state width="1323" height="139" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577396780693" />
+    <state width="1323" height="83" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1577576594387" />
+    <state width="1323" height="419" key="GridCell.Tab.2.bottom" timestamp="1577574460271">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577385797961" />
-    <state width="1323" height="264" key="GridCell.Tab.0.right" timestamp="1577385797961">
+    <state width="1323" height="419" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577574460271" />
+    <state width="1323" height="419" key="GridCell.Tab.2.center" timestamp="1577574460271">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577385797961" />
-    <state width="1323" height="264" key="GridCell.Tab.1.bottom" timestamp="1577385797961">
+    <state width="1323" height="419" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1577574460271" />
+    <state width="1323" height="419" key="GridCell.Tab.2.left" timestamp="1577574460271">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577385797961" />
-    <state width="1323" height="264" key="GridCell.Tab.1.center" timestamp="1577385797961">
+    <state width="1323" height="419" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1577574460271" />
+    <state width="1323" height="419" key="GridCell.Tab.2.right" timestamp="1577574460271">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577385797961" />
-    <state width="1323" height="264" key="GridCell.Tab.1.left" timestamp="1577385797961">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="419" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1577574460271" />
+    <state x="170" y="146" key="Maven.ArtifactSearchDialog" timestamp="1578749207634">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577385797961" />
-    <state width="1323" height="264" key="GridCell.Tab.1.right" timestamp="1577385797961">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="264" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577385797961" />
+    <state x="170" y="146" key="Maven.ArtifactSearchDialog/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578749207634" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1577385624641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577385624641" />
+    <state x="356" y="137" width="690" height="806" key="find.popup" timestamp="1578833800608">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="356" y="137" width="690" height="806" key="find.popup/-1366.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1578833800608" />
+    <state x="380" y="101" width="736" height="596" key="find.popup/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577396876117" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1577384550756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1577384550756" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo$UserServiceTest.ic" NAME="UserServiceTest Coverage Results" MODIFIED="1577576687935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.adminOfficialWeb.demo.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/demo$UserControllerTest.ic" NAME="UserControllerTest Coverage Results" MODIFIED="1577481977045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.adminOfficialWeb.demo.controller.*</FILTER>
+    </SUITE>
   </component>
 </project>
