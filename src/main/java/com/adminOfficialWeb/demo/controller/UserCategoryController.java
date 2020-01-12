@@ -31,7 +31,7 @@ public class UserCategoryController {
     }
 
     @PostMapping()
-    public Response createCategory(@RequestBody UserCategoryDTO userCategoryDTO){
+    public Response createUserCategory(@RequestBody UserCategoryDTO userCategoryDTO){
         return Response.builder()
                 .data(userCategoryService.create(userCategoryDTO))
                 .httpStatus(HttpStatus.OK.value())
@@ -39,7 +39,7 @@ public class UserCategoryController {
     }
 
     @PutMapping()
-    public Response updateCategory(@RequestBody UserCategoryDTO userCategoryDTO){
+    public Response updateUserCategory(@RequestBody UserCategoryDTO userCategoryDTO){
         return Response.builder()
                 .data(userCategoryService.update(userCategoryDTO))
                 .httpStatus(HttpStatus.OK.value())
@@ -47,7 +47,7 @@ public class UserCategoryController {
     }
 
     @DeleteMapping(path = "/{id}")
-    public Response deleteCategoryById(@PathVariable("id") Long id){
+    public Response deleteUserCategoryById(@PathVariable("id") Long id){
         return Response.builder()
                 .data(userCategoryService.deleteById(id))
                 .httpStatus(HttpStatus.OK.value())

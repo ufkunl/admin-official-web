@@ -45,9 +45,18 @@ public class UserCategoryServiceImpl implements UserCategoryService<UserCategory
         return userCategoryMapper.toDTO(userCategory);
     }
 
+    // only update UserCategory if category exist
+    // first add category then update UserCategory if category not exist
     @Override
     public UserCategoryDTO update(UserCategoryDTO dto) {
+        User user = userUtil.getAuthenticatedUser();
         UserCategory userCategory = userCategoryMapper.toEntity(dto);
+        Category category = categoryService.findByName(userCategory.getCategory().getName());
+        if(category == null){
+            category = categoryService.create(new Category(userCategory.getCategory().getName(),true));
+        }
+        userCategory.setCategory(category);
+        userCategory.setUser(user);
         userCategoryRepository.save(userCategory);
         return userCategoryMapper.toDTO(userCategory);
     }
