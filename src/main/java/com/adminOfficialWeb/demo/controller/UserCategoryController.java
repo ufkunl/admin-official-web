@@ -30,8 +30,16 @@ public class UserCategoryController {
                 .build();
     }
 
+    @GetMapping("/user")
+    public Response getActiveCategoryByUserKey(@RequestParam String key){
+        return Response.builder()
+                .httpStatus(HttpStatus.OK.value())
+                .data(userCategoryService.getActiveCategoryByUserKey(key))
+                .build();
+    }
+
     @PostMapping()
-    public Response createUserCategory(@RequestBody UserCategoryDTO userCategoryDTO){
+    public Response createUserCategory(@RequestBody UserCategoryDTO userCategoryDTO) throws Exception {
         return Response.builder()
                 .data(userCategoryService.create(userCategoryDTO))
                 .httpStatus(HttpStatus.OK.value())
@@ -39,7 +47,7 @@ public class UserCategoryController {
     }
 
     @PutMapping()
-    public Response updateUserCategory(@RequestBody UserCategoryDTO userCategoryDTO){
+    public Response updateUserCategory(@RequestBody UserCategoryDTO userCategoryDTO) throws Exception {
         return Response.builder()
                 .data(userCategoryService.update(userCategoryDTO))
                 .httpStatus(HttpStatus.OK.value())
